@@ -16,6 +16,8 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
 
+        teacher = (Button)findViewById(R.id.teacher);
+        student = (Button)findViewById(R.id.student);
         teacher.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {

@@ -1,27 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    android:id="@+id/activity_main"
+    android:id="@+id/activity_timetable_data"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:paddingBottom="@dimen/activity_vertical_margin"
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
-    tools:context="com.example.asadshaik.mjcettimetable.MainActivity">
-
-    <Button
+    tools:context="com.example.asadshaik.mjcettimetable.Timetable_data">
+    <ImageView
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:id="@+id/teacher"
-        android:text="Professor" />
-
-    <Button
-        android:text="student"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_below="@+id/teacher"
-        android:layout_centerHorizontal="true"
-        android:id="@+id/student" />
+        android:layout_height="match_parent"
+        android:id="@+id/timetable"
+        android:layout_centerHorizontal="true"/>
 
 </RelativeLayout>

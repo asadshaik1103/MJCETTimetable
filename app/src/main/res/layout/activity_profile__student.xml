@@ -9,11 +9,41 @@
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="com.example.asadshaik.mjcettimetable.Profile_Student">
-<Spinner
-    android:layout_width="match_parent"
-    android:layout_height="wrap_content"
-    android:text="Select"
-    android:id="@+id/spinnerid"
-    android:layout_alignParentTop="true">
-</Spinner>inner
+
+
+    <Spinner
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="95dp"
+        android:id="@+id/branch"
+        />
+
+    <Spinner
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/branch"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="88dp"
+        android:id="@+id/year"
+       />
+
+    <Spinner
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/sec"
+        android:layout_below="@+id/year"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="75dp"
+        />
+
+    <Button
+        android:text="fetch"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/fetch"
+        />
 </RelativeLayout>
